@@ -22,5 +22,8 @@ public class Figura
    
        return area;
    }
-  
+   
+   public String dimeInfo(){
+       return "" +area;
+   }
 }
