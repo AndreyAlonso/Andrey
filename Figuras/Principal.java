@@ -27,18 +27,18 @@ public class Principal
         figuras[2] = C1;
         
       
-         int i;
-        for(i = 0; i < figuras.length; i++)
+     
+        for(Figura elemento: figuras)
         {
-            figuras[i].calculaArea();
+            elemento.calculaArea();
             
         }
+     
         
-        
-        for(i = 0; i < figuras.length; i++)
+        for(Figura elemento: figuras)
         {
-            figuras[i].accederArea();
-            System.out.println(figuras[i].accederArea());
+            elemento.accederArea();
+            System.out.println(elemento.accederArea());
         }
        
         
