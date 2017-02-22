@@ -7,7 +7,7 @@
  */
 public class Figura
 {
-   public   float area;
+   public float area;
    
    public Figura()
    {
@@ -17,6 +17,10 @@ public class Figura
    public void calculaArea(){
       
        
+   }
+   public float accederArea(){
+   
+       return area;
    }
   
 }
