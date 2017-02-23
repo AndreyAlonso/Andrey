@@ -9,6 +9,11 @@ public class Figura
 {
    public float area;
    
+   @Override 
+   public String toString(){
+       return "" + area;
+   }
+   
    public Figura()
    {
        area = 0;
@@ -26,4 +31,6 @@ public class Figura
    public String dimeInfo(){
        return "" +area;
    }
+   
+   
 }

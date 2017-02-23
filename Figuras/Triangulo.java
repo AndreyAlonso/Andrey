@@ -22,6 +22,12 @@ public class Triangulo extends Figura
        
    }
    public String dimeInfo(){
-        return "triangulo ->" +super.dimeInfo();
+        return "triangulo ->" + super.dimeInfo();
     }
+   
+   @Override
+   public String toString(){
+       
+       return "Triangulo con area = " +super.toString();
+   }
 }
