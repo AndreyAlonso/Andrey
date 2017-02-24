@@ -23,5 +23,17 @@ public class Circulo extends Figura
     public String dimeInfo(){
         return "circulo" +super.dimeInfo();
     }
+    
+    
+    @Override
+    public boolean equals(Object obj)
+    {
+           if(obj instanceof Circulo)
+           {
+               return this.radio == ((Circulo)obj).radio;
+           }
+           else
+                return false;
+    }
   
 }

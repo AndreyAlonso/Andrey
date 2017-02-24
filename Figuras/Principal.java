@@ -9,15 +9,33 @@ public class Principal
 {
     public static void main(String [] args){
         Triangulo T1 = new Triangulo(4,3);
-        T1.calculaArea();
-        System.out.println("Area Triangulo: " +  T1.accederArea());
+        
+        //T1.calculaArea();
+        //System.out.println("Area Triangulo: " +  T1.accederArea());
         
         Rectangulo R1 = new Rectangulo(2,3);
         R1.calculaArea();
-        System.out.println("Area Rectangulo: " + R1.accederArea()); 
+        //System.out.println("Area Rectangulo: " + R1.accederArea()); 
         
         Circulo C1 = new Circulo(5);
-        C1.calculaArea();
+        Circulo C2 = new Circulo(5);
+        //C1.calculaArea();
+        C2.calculaArea();
+        
+        
+        System.out.println("Usando  ==");
+        if(C1 == C2)
+            System.out.println("Iguales");
+        else
+            System.out.println("Diferentes");
+        
+        System.out.println("\nUsando equals()");
+           if(C1.equals(T1))
+           System.out.println("Iguales");
+        else
+            System.out.println("Diferentes");
+        
+            
         System.out.println("Area Circulo: " + C1.accederArea());
         
         Figura [] figuras = new Figura[3];
