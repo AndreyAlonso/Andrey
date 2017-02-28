@@ -8,6 +8,11 @@
 public class Principal
 {
     public static void main(String [] args){
+        Ventana vent = new Ventana(800, 600);
+        vent.setVisible(true);
+        
+        
+        
         Triangulo T1 = new Triangulo(4,3);
         
         //T1.calculaArea();
