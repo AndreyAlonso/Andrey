@@ -5,11 +5,23 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura
-{
-   public float area;
+public abstract class Figura{
+   //protected float area;
+   private int posx;
+   private int posy;
+   public Figura(int x, int y){
+       posx = x;
+       posy = y;
+   }
    
-   @Override 
+   protected int dameX(){
+       return posx;
+    }
+   protected int dameY(){
+       return posy;
+   }
+   
+   /*@Override 
    public String toString(){
        return "" + area;
    }
@@ -37,4 +49,6 @@ public class Figura
    public boolean equals(Object obj){
        return this.area == ((Figura)obj).area;
    }
+
+   */
 }

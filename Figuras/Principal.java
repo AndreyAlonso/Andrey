@@ -27,7 +27,7 @@ public class Principal
         //C1.calculaArea();
         C2.calculaArea();
         
-        
+        /*
         System.out.println("Usando  ==");
         if(C1 == C2)
             System.out.println("Iguales");
@@ -40,9 +40,9 @@ public class Principal
         else
             System.out.println("Diferentes");
         
-            
+           
         System.out.println("Area Circulo: " + C1.accederArea());
-        
+        */
         Figura [] figuras = new Figura[3];
         
         figuras[0] = T1;
