@@ -17,8 +17,8 @@ public class Lienzo extends JPanel
     {
         //Inicializa el ArrayList de figuras
         figuras = new ArrayList<Figura>();
-        
-       
+      
+  
         
     }
     
@@ -30,6 +30,11 @@ public class Lienzo extends JPanel
         Graphics2D g2 = (Graphics2D)g;
         g2.drawString("Hola Mundo", 100,200);
         g2.drawRect(50,30,20,40);
+        
+        for(Figura f: figuras){
+            f.dibuja(g);
+        }
+         
         
        
         

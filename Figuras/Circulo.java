@@ -1,16 +1,17 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Circulo here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Circulo extends Figura
+public  class Circulo extends Figura
 {
     private float radio;
     private double PI = 3.1416;
-    
-    public Circulo(int posx,int posy, float r){
+
+    public  Circulo(int posx,int posy, float r){
         x = posx;
         y = posy;
         radio = r;

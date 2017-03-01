@@ -1,5 +1,6 @@
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Color;
 /**
  * Write a description of class Figura here.
  * 
@@ -15,9 +16,7 @@ public abstract class Figura{
        posy = y;
    }
    
-   public void dibuja(Graphics g){
-        
-   }
+   public abstract void dibuja(Graphics g);
    
  
    /*@Override 
