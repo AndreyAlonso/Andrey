@@ -9,8 +9,14 @@ public class Circulo extends Figura
 {
     private float radio;
     private double PI = 3.1416;
- 
     
+    public Circulo(int posx,int posy, float r){
+        x = posx;
+        y = posy;
+        radio = r;
+    }
+ 
+    /*
     public Circulo(float r)
     {
         radio = r;
@@ -35,5 +41,5 @@ public class Circulo extends Figura
            else
                 return false;
     }
-  
+    */
 }

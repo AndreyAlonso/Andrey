@@ -1,8 +1,6 @@
 #BlueJ class context
 comment0.params=x\ y
 comment0.target=Figura(int,\ int)
-comment1.params=
-comment1.target=int\ dameX()
-comment2.params=
-comment2.target=int\ dameY()
-numComments=3
+comment1.params=g
+comment1.target=void\ dibuja(java.awt.Graphics)
+numComments=2

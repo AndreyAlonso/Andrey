@@ -18,6 +18,8 @@ public class Lienzo extends JPanel
         //Inicializa el ArrayList de figuras
         figuras = new ArrayList<Figura>();
         
+       
+        
     }
     
     

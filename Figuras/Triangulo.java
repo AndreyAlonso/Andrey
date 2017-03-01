@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Triangulo here.
  * 
@@ -17,17 +18,22 @@ public class Triangulo extends Figura
       
        
     }
-   public void calculaArea(){
-       area = (base * altura)/2;
-       
+   public void dibuja(Graphics g){
    }
-   public String dimeInfo(){
-        return "triangulo ->" + super.dimeInfo();
-    }
-   
-   @Override
-   public String toString(){
-       
-       return "Triangulo con area = " +super.toString();
-   }
-}
+           /*
+           public void calculaArea(){
+               area = (base * altura)/2;
+               
+           }
+           public String dimeInfo(){
+                return "triangulo ->" + super.dimeInfo();
+            }
+           
+           @Override
+           public String toString(){
+               
+               return "Triangulo con area = " +super.toString();
+           }
+        }
+        */
+    } 

@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Figura here.
  * 
@@ -14,13 +15,11 @@ public abstract class Figura{
        posy = y;
    }
    
-   protected int dameX(){
-       return posx;
-    }
-   protected int dameY(){
-       return posy;
+   public void dibuja(Graphics g){
+        
    }
    
+ 
    /*@Override 
    public String toString(){
        return "" + area;
