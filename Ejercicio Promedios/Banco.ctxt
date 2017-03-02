@@ -1,4 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Banco()
-numComments=1
+comment1.params=C
+comment1.target=void\ nuevaCuenta(CuentaBancaria)
+comment2.params=
+comment2.target=float\ calculaSaldoPromedio()
+numComments=3
