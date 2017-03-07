@@ -12,7 +12,7 @@ public class Banco
         Cuenta.add(C);
         
     }
-    public float calculaSaldoPromedio(){
+    public float calculaPromedio(){
         float prom = 0;
         
         int tam = Cuenta.size();
