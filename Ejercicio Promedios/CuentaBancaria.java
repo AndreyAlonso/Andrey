@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CuentaBancaria
+public class CuentaBancaria implements Medible
 {
     private int saldo;
     
@@ -8,7 +8,7 @@ public class CuentaBancaria
         saldo = s;
     
     }   
-    public int dameSaldo(){
+    public int obtenerMedida(){
         
         return saldo;
     }

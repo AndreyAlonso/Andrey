@@ -16,7 +16,7 @@ public class Planeta{
         
         for(Pais F: Pais)
         {
-            prom = prom + F.dameHabitantes();
+            prom = prom + F.obtenerMedida();
         }
         prom = prom/tam;
         return prom;

@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Pais{
+public class Pais implements Medible{
     private int habitantes;
     
  
@@ -7,7 +7,7 @@ public class Pais{
     public Pais(int h){
         habitantes = h;
     }
-    public int dameHabitantes()
+    public int obtenerMedida()
     {
         return habitantes;
     }
