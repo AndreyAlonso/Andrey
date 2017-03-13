@@ -3,4 +3,6 @@ comment0.params=x\ y\ r
 comment0.target=Pelota(int,\ int,\ int)
 comment1.params=g
 comment1.target=void\ dibujate(java.awt.Graphics)
-numComments=2
+comment2.params=r
+comment2.target=void\ muevete(java.awt.Rectangle)
+numComments=3
